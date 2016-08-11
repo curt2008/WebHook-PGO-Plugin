@@ -15,15 +15,6 @@ class CustomWebhook(BaseTask):
     Fetching some stats requires making API calls. If you're concerned about the amount of calls
     your bot is making, don't enable this worker.
 
-    Example config :
-    {
-        "type": "CurtsPlugin.CustomWebhook",
-        "config": {
-            "webhook_url": "http://www.test.com/webhook.php",
-            "stats": ["login", "uptime", "km_walked", "level_stats", "xp_earned", "xp_per_hour"]
-        }
-    }
-
     Available stats :
     - login : The account login (from the credentials).
     - username : The trainer name (asked at first in-game connection).
