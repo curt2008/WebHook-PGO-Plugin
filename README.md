@@ -21,7 +21,7 @@ For instance, when using the WebHook PGO Plugin, you're going to use the followi
   ...
   "tasks": [
     {
-      "type": "WebHookPlugin.CustomWebhook",
+      "type": "WebHook-PGO-Plugin.CustomWebhook",
       "config": {
       		"min_interval": 60,
       		"webhook_url": "http://www.website.com/webhook.php",
