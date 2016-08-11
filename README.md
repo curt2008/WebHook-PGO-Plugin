@@ -9,10 +9,12 @@ In your `config.json`, you can add a new array:
 ```
   ...
   "plugins": [
-    "curt2008/WebHook-PGO-Plugin#2d54eddde33061be9b329efae0cfb9bd58842655"
+    "curt2008/WebHook-PGO-Plugin#{commitId}"
   ],
   ...
 ```
+
+You must replace the `{commitId}` with the latest Commit ID, that can be found [HERE](https://github.com/curt2008/WebHook-PGO-Plugin/commits/master)
 
 Once that is there, you can add to your `tasks` array the task you want to use from the plugin. 
 For instance, when using the WebHook PGO Plugin, you're going to use the following format:
